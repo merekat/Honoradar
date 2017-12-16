@@ -1,0 +1,39 @@
+
+
+.freischreiber-box {
+  height: 250px;
+  width: 30%;
+  min-width: 360px;
+  background-size: 500px ;
+  margin: 100px 0px 0px 60%;
+  background-color: #ffffff;  
+  background-repeat: no-repeat;
+  background-image: url(../image/Freischreiberlogo.png);
+  background-position: 80% 30%;
+
+  background-attachment: fixed;
+  justify-content: left;
+
+  position: relative;
+  z-index: 2;
+  /* fix bug on iOS */
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+  -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+  transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+   transition-duration: 0.5s; 
+}
+
+
